@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
-        body: Center(child: _widgetOptions.elementAt(_selectedIndex)));
+        body: SingleChildScrollView(child: Center(child: _widgetOptions.elementAt(_selectedIndex))));
         //body: HomePage());
   }
 }
